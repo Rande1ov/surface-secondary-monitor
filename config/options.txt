@@ -1,0 +1,5 @@
+# Virtual Display Driver 설정 파일 (options.txt)
+# Surface Pro 4 전용 3:2 해상도 설정
+# 형식: 가로픽셀, 세로픽셀, 주사율(Hz)
+
+1920, 1280, 60

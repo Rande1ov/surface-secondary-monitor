@@ -1,0 +1,13 @@
+{
+  "name": "Surface Pro 4 보조모니터",
+  "output-name": "\\\\.\\DISPLAY2",
+  "prep-cmd": [
+    {
+      "do": "powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -File \"C:\\Users\\guswn\\.gemini\\antigravity\\scratch\\surface-secondary-monitor\\scripts\\start_virtual_display.ps1\"",
+      "undo": "powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -File \"C:\\Users\\guswn\\.gemini\\antigravity\\scratch\\surface-secondary-monitor\\scripts\\stop_virtual_display.ps1\"",
+      "elevated": "true"
+    }
+  ],
+  "exclude-global-prep-cmd": "false",
+  "auto-detach": "true"
+}

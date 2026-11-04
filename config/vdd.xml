@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Virtual Display Driver (VDD) XML 설정 파일 -->
+<VirtualDisplayConfig>
+  <Displays>
+    <Display>
+      <!-- Surface Pro 4 전용 3:2 비율 해상도 -->
+      <Width>1920</Width>
+      <Height>1280</Height>
+      <RefreshRate>60</RefreshRate>
+    </Display>
+  </Displays>
+</VirtualDisplayConfig>

@@ -3,14 +3,7 @@
   "apps": [
     {
       "name": "Desktop",
-      "image-path": "desktop.png",
-      "prep-cmd": [
-        {
-          "do": "powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -File \"C:\\Users\\guswn\\.gemini\\antigravity\\scratch\\surface-secondary-monitor\\scripts\\start_virtual_display.ps1\"",
-          "undo": "powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -File \"C:\\Users\\guswn\\.gemini\\antigravity\\scratch\\surface-secondary-monitor\\scripts\\stop_virtual_display.ps1\"",
-          "elevated": true
-        }
-      ]
+      "image-path": "desktop.png"
     },
     {
       "name": "Steam Big Picture",
